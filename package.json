@@ -1,0 +1,30 @@
+{
+  "name": "pugstagram",
+  "homepage": "https://eltranseunteurbano.github.io/Pugstagram/",
+  "version": "1.0.0",
+  "description": "Proyecto del curso de svelte",
+  "main": "index.js",
+  "scripts": {
+    "dev": "sapper dev",
+    "start": "node __saper__/build",
+    "build": "sapper build",
+    "export": "sapper export"
+  },
+  "keywords": [
+    "Svelte"
+  ],
+  "author": "Jaime Burbano",
+  "license": "MIT",
+  "dependencies": {
+    "compression": "^1.7.4",
+    "gh-pages": "^2.2.0",
+    "polka": "^0.5.2",
+    "sirv": "^0.4.2"
+  },
+  "devDependencies": {
+    "svelte": "^3.22.3",
+    "sapper": "^0.27.13",
+    "svelte-loader": "^2.13.6",
+    "webpack": "^4.43.0"
+  }
+}
